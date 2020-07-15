@@ -11,7 +11,6 @@ using namespace std;
 int main()
 {
 	int set[] = { 0,3,6,9,12 };
-	int face;
 
 
 	for (int i = 1; i <= 10; i++)
