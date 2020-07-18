@@ -49,6 +49,7 @@ int main()
 	Status myStatus;
 
 	cout << "**********Welcome to Crap Game************" << endl;
+        cout << "Current Balance is: " << myBalance << endl;
 
 	do {
 
