@@ -128,7 +128,7 @@ int main()
 
 		if (myChoice == 'n')
 		{
-			cout << "You're up big. Now's time to case in your chips!" << endl;
+			cout << "You're up big. Now's time to cash in your chips!" << endl;
 		}
 
 
