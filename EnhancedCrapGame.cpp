@@ -4,8 +4,27 @@
 
 #include<iostream>
 #include<cstdlib>
+#include<random>
 #include<ctime>
 using namespace std;
+
+/* 
+random_device rd;
+mt19937 gen(rd());
+
+inline unsigned int rollDice()
+{
+
+	int die1 = uniform_int_distribution<unsigned int>{ 1, 6 }(gen);
+	int die2 = uniform_int_distribution<unsigned int>{ 1, 6 }(gen);
+
+	int sum = die1 + die2;
+
+	cout << "Player rolled " << die1 << " + " << die2 << " = " << sum << endl;
+
+	return sum;
+}
+*/
 
 unsigned int rollDice()
 {
@@ -99,10 +118,10 @@ int main()
 		}
 		else if (myBalance >= 100 && myBalance <= 400)
 		{
-			cout << "Aw cmon, tkae a chance" << endl;
+			cout << "Aw cmon, take a chance" << endl;
 		}
 
-		cout << "You want to play again: ";
+		cout << "You want to play again(y or n): ";
 		cin >> myChoice;
 
 		cout << "-----------------------------------" << endl;
